@@ -20,7 +20,7 @@ Overview:
        Supervised Learning – Classification
      Explanation: This is a Supervised Learning Binary Classification task because the dataset                                                 contains    labelled output targets where we predict whether a customer will leave the bank (1 = Churn) or stay (0 = Not Churned).
      
-3. Dataset Understanding
+2. Dataset Understanding
 
 2.1 Dataset Source
        Dataset Source Link: OpenML - Bank Customer Churn Dataset 
