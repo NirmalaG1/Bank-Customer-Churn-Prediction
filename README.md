@@ -4,13 +4,17 @@
 
 
 Bank Customers Churn Prediction
-Data Science Mini Project
 
 Student Name: Nirmala G
+
 Batch: DSB02
-Submission Date: 26 July 2026
+
+Submission Date: 25 July 2026
+
  
 1. Problem Definition
+
+   
 1.1 Business / Real-World Problem Statement
  Customer churn is a critical challenge for banking institutions as acquiring new customers costs significantly more than retaining existing ones. When customers close their accounts or switch to competitor banks, it leads to direct revenue loss and reduced customer lifetime value. Identifying customers who are likely to churn enables banks to take targeted retention measures, offer proactive loyalty incentives, and improve overall customer satisfaction.
 1.2 Project Objectives
@@ -21,7 +25,7 @@ Submission Date: 26 July 2026
 1.3 Machine Learning Problem Type
        Supervised Learning – Classification
      Explanation: This is a Supervised Learning Binary Classification task because the dataset                                                 contains    labelled output targets where we predict whether a customer will leave the bank (1 = Churn) or stay (0 = Not Churned).
-2. Dataset Understanding
+3. Dataset Understanding
 
 2.1 Dataset Source
        Dataset Source Link: OpenML - Bank Customer Churn Dataset 
