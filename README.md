@@ -390,12 +390,7 @@ This indicates that synthetic oversampling introduced minor noise into the decis
 
 
 7.Model Comparison:
-Metric	Tuned Random Forest	Tuned XGBoost	Best Choice
-Accuracy	84.44%	83.44%	RF (Slightly higher overall)
-F1 Score	0.6182	0.6208	XGBoost
-Recall (Class 1 - Churn)	0.63 (63%)	0.68 (68%)	XGBoost (Key Metric)
-True Positives (Detected Churns)	315 / 497	339 / 497	XGBoost (+24 extra churners caught)
-False Negatives (Missed Churns)	182	158	XGBoost (Lower risk)
+
 
 7.1 XGBoost model is selected for final Deployment.
 Reasons:
