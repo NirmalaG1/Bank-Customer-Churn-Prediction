@@ -1,10 +1,10 @@
 Bank Customers Churn Prediction
+
 Overview:
 
 ​Bank Customer Churn Prediction uses machine learning algorithms to analyze customer demographics and transaction behavior to identify individuals likely to leave the bank. This enables financial institutions to proactively launch targeted retention strategies, reduce customer attrition, and protect recurring revenue.
 
 
- 
 1. Problem Definition
 
    
