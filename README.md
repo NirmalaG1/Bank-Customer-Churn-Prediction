@@ -322,19 +322,6 @@ Since the dataset is imbalanced, setting class_weight='balanced' (and scale_pos_
  
 
 
-Observations:
-
-Model	Accuracy	Churn Precision	Churn Recall	Churn F1-Score	Status / Conclusion
-Logistic Regression	0.71	0.38	0.71	0.49	High Recall,
- but lower Precision
-KNeighborsClassifier	0.84	0.66	0.44	0.53	Good Accuracy, 
-but misses churners (Low Recall)
-RandomForestClassifier	0.85	0.62	0.59	0.61	Balanced performance (Top Candidate)
-SVM Classifier (SVC)	0.86	0.8	0.38	0.51	High Precision, but very low Recall
-DecisionTreeClassifier	0.79	0.48	0.5	0.49	Moderate performance across all metrics
-GaussianNB	0.83	0.63	0.36	0.46	Lowest Churn Recall
-XGBClassifier	0.83	0.57	0.64	0.6	High Recall & Strong F1-Score (Top Candidate)
-
 Detailed Analysis & Insights
 
 •	Because your target dataset is imbalanced (as indicated use of class_weight='balanced' and scale_pos_weight=4), Accuracy alone is misleading.
@@ -380,10 +367,6 @@ Optimal Trade-off: While overall accuracy slightly adjusted from 85% to 84.36%, 
 To address class imbalance, SMOTE was implemented to generate synthetic samples for the minority churn class during training, with the goal of enhancing the model's ability to detect churners.
   
 
-Observations:
-Model Scenario	Accuracy	Churn Precision (Class 1)	Churn Recall (Class 1)	Churn F1-Score (Class 1)	True Positives (Caught Churns)
-Tuned Random Forest (No SMOTE)	84.36%	0.6	0.64 (64%)	0.62	316 / 497
-Tuned Random Forest (+ SMOTE)	83.00%	0.57	0.61 (61%)	0.59	304 / 497
 
 Evaluating SMOTE Impact:
 
